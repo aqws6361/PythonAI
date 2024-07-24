@@ -2,3 +2,6 @@
 
 # 忽略 Jupyter Notebook 检查点文件
 .ipynb_checkpoints/
+
+# 忽略 pythonAI 學習文件
+AEL026400-Code/
