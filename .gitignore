@@ -1,0 +1,4 @@
+*.csv
+
+# 忽略 Jupyter Notebook 检查点文件
+.ipynb_checkpoints/
