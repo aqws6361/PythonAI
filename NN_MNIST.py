@@ -123,3 +123,5 @@ plt.plot(train_acc, label='Train Set')
 plt.plot(test_acc, label='Test Set')
 plt.legend()
 plt.show()
+
+visualize(NN, test_loader)
