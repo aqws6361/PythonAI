@@ -32,6 +32,6 @@ W2 = torch.randn(N_Hidden, N_Output)  # 輸出層權重張量
 B2 = torch.randn((Date_Count, N_Output))  # 輸出層偏差張量
 
 Hidden = torch.sigmoid(torch.mm(X, W1) + B1)  # 輸出層傳至隱藏層
-Output = torch.sigmoid(torch.mm(Hidden, W2) + B2)  #隱藏層傳至輸出層
+Output = torch.sigmoid(torch.mm(Hidden, W2) + B2)  # 隱藏層傳至輸出層
 
 print(Output)
